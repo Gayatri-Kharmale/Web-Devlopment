@@ -1,0 +1,60 @@
+
+
+/*#p1{
+    background-color:aqua;
+    font-size:40px;
+
+}*/
+/*div {
+    background-color:blue;
+    font-size: 30px;
+    color:black;
+}*/
+/*#p2 {
+    background-color:yellow;
+}
+.center-aligment{
+    text-align:center;
+}*/
+
+
+
+
+
+
+
+/*Boxmodel*/
+
+/*div {
+    margin: 30px 50px 30px;
+    border: 2px solid #6E2A3F;
+    padding: 20px 10px 30px 40px;
+    border-radius: 20px 10px 30px 40px;
+    box-shadow: 2px 9px 18px #F4561A;
+}*/
+
+
+/*page html*/
+
+nav{
+    background-color:#CAD5D3;
+    height:48px;
+}
+#menu{
+    list-style-type:none;
+    display:inline-flex;
+    float:right;
+}
+#menu li{
+    margin-right:30px
+}
+#menu li a{
+    text-decoration:none;
+}
+#banner {
+    margin-top: 3px;
+    background-image: url('photo-1501139083538-0139583c060f.jpg');
+    height: 250px;
+    width: 100%;
+    background-position: bottom;
+}
