@@ -36,9 +36,24 @@
 
 /*page html*/
 
+header{
+    postion:relative;
+    height:31px;
+}
+header marquee p{
+    position:relative;
+    top:-17px;
+}
+
+
+
 nav{
     background-color:#CAD5D3;
     height:48px;
+    width:100%;
+    z-index:2;
+    position:sticky;
+    top:0;
 }
 #menu{
     list-style-type:none;
@@ -52,9 +67,98 @@ nav{
     text-decoration:none;
 }
 #banner {
-    margin-top: 3px;
+    position:relative;
+    top: 3px;
     background-image: url('photo-1501139083538-0139583c060f.jpg');
     height: 250px;
     width: 100%;
     background-position: bottom;
 }
+#banner h1{
+    position:absolute;
+    top:82px;
+    left:84;;
+}
+.left-panel ul{
+    list-style:none;
+    display:block;
+}
+.left-panel ul li{
+    position:relative;
+    top:18px;
+    padding-top:14px;
+
+}
+.main-content{
+    postion:relative;
+    top:-192px;
+    margin-left:248px;
+    width:77%;
+}
+table td{
+   
+    top:396px;
+    bottom:106px;
+    margin-right:-78px;
+    margin-left:378px;
+    width:40%;
+}
+
+.footer {
+    position:relative;
+    height:67px;
+    background:#808080;
+    margine-Top:-381px;
+
+
+}
+.footer p{
+    position:absolute;
+    top:10px;
+    color:#ffffff;
+    left:10px;
+}
+.left-panel p {
+    list-style: none;
+    display: block;
+}
+a:hover {
+    color:#ffffff;
+    background: #808080;
+    padding: 8px;
+    font-size: 16px;
+}
+img:hover{
+    height:200px;
+    width:200px;
+}
+
+/*---------------------------------------------------------------*/
+
+h1{
+    color:red;
+    font-size:40px;
+    text-decoration:underline;
+}
+ul{
+    list-style-type:none;
+    display:inline-flex;
+}
+ul li{
+    margin-right:20px;
+}
+/*table device*/
+@media only screen and (min-device-width:320px) and
+(max-device-width:480px)
+{
+    h1{
+        color:blue;
+        font-size:14pxl;
+        text-decoration:none;
+
+    }
+    ul{
+        display:block;
+    }
+}
+
